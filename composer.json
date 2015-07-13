@@ -1,0 +1,28 @@
+{
+    "name": "tirien/alert",
+    "description": "Alert Class for Laravel PHP framework.",
+    "type": "library",
+    "keywords": [
+        "alerts",
+        "messages",
+    ],
+    "homepage": "https://tirien.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mladen Janjetovic",
+            "email": "mladen@tirien.com",
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/youndivian/php-alerts/issues",
+    },
+    "require": {
+        "php": ">=5.3.3",
+    },
+    "autoload": {
+        "psr-4": {
+            "Tirien\\Alert\\": "src/"
+        }
+    }
+}

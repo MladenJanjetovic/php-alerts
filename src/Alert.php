@@ -72,7 +72,7 @@ class Alert {
     	$_SESSION["alerts"][$type][] = $alert;
     }
 
-    static function get($type, $alert) 
+    static function get() 
     {
     	self::checkSession();
     	return empty($_SESSION["alerts"]) ? array() : $_SESSION["alerts"];

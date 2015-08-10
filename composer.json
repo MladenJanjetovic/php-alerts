@@ -15,7 +15,7 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/youndivian/php-alerts/issues"
+        "issues": "https://github.com/mladenjanjetovic/php-alerts/issues"
     },
     "require": {
         "php": ">=5.3.3"

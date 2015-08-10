@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tirien\\Alert\\": "src/"
+            "Tirien\\": "src/"
         }
     }
 }

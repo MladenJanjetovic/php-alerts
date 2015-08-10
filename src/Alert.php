@@ -1,4 +1,4 @@
-<?php namespace Tirien\Alert;
+<?php namespace Tirien;
 
 /**
  * APPLICATION ALERT HANDLING CLASS

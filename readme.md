@@ -1,6 +1,6 @@
 # PHP Alerts
 
-Application alert handling class.
+Application alert handling class that easily set the message of most common types, and dumps them with HTML markup if needed.
 
 
 
@@ -13,7 +13,7 @@ Alert::set("error", ["Bad phone", "Bad address"]);
 
 
 
-Print block of alerts with markup:
+Print block of alerts with HTML markup:
 
 ```
 Alert::show();

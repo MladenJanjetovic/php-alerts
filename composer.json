@@ -1,6 +1,6 @@
 {
     "name": "tirien/alert",
-    "description": "Alert Class for Laravel PHP framework.",
+    "description": "PHP Application alert handling class.",
     "type": "library",
     "keywords": [
         "alerts",

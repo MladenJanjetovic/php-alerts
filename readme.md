@@ -7,7 +7,7 @@ Application alert handling class that easily sets the messages of any type, and 
 Use to set arbitrarily types of alerts:
 
 ```
-Alert::set("error", "Error occured");
+Alert::set("success", "Successfully saved!");
 Alert::set("error", ["Bad phone", "Bad address"]);
 ```
 By sending the error type as first attribute, you can group messages within Alert object and get the HTML markup with appropriate CSS classes included.

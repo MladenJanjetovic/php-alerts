@@ -8,6 +8,7 @@ Use to set arbitrarily types of alerts:
 
 ```
 Alert::set("error", "Error occured");
+Alert::set("error", ["Bad phone", "Bad address"]);
 ```
 
 

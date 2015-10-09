@@ -2,15 +2,7 @@
 
 /**
  * APPLICATION ALERT HANDLING CLASS
- * 
- * Use to set arbitrarily types of alerts:
- * Alert::set("error", "Error occured");
- * 
- * Print block of alerts:
- * Alert::show(); 
- * 
- * Clear all alerts:
- * Alert::clear();
+ * More info at: https://github.com/MladenJanjetovic/php-alerts
  */
 
 class Alert {

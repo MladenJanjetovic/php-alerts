@@ -69,7 +69,16 @@ class Alert {
     static function set($type, $alert) 
     {
     	self::checkSession();
-    	$_SESSION["alerts"][$type][] = $alert;
+
+    	if (is_array($alert)) 
+    	{
+    		foreach ($alert as $message) {
+    			$_SESSION["alerts"][$type][] = $message;
+    		}
+    	}
+    	else{
+    		$_SESSION["alerts"][$type][] = $alert;
+    	}
     }
 
     static function get() 
